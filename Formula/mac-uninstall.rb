@@ -2,11 +2,11 @@ class MacUninstall < Formula
   include Language::Python::Virtualenv
 
   desc "macOS app cleaner for the terminal — remove apps and their leftovers"
-  homepage "https://github.com/ju-chan09/mac-uninstall"
-  url "https://github.com/ju-chan09/mac-uninstall/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "22705d39ce65c07352d85865010613855f58ae0f96525b121b52224055f3a98d"  # run: brew fetch --build-from-source Formula/mac-uninstall.rb
+  homepage "https://github.com/ju-chan09/mac-uninstaller"
+  url "https://github.com/ju-chan09/mac-uninstaller/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "cdd43b586a60e8857aa838af1abdf9a778b47b826bee002e10f945119801a9eb"
   license "MIT"
-  head "https://github.com/ju-chan09/mac-uninstall.git", branch: "main"
+  head "https://github.com/ju-chan09/mac-uninstaller.git", branch: "main"
 
   depends_on "python@3.12"
   depends_on :macos
